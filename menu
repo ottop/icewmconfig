@@ -1,0 +1,6 @@
+# This is an example for icewm 2.3.0 menu definition file.
+# It will be installed as /usr/share/icewm/menu.
+# Place your variants in /etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+includeprog icewm-menu-fdo --sep-before --no-sep-others
