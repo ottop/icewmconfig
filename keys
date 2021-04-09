@@ -22,4 +22,3 @@ key "XF86AudioLowerVolume"		pactl set-sink-volume 0 -3%
 key "XF86AudioRaiseVolume"		pactl set-sink-volume 0 +3%
 key "XF86AudioMute"			pactl set-sink-mute 0 toggle
 key "Print"        gnome-screenshot
-key "Insert"  xdotool type --delay 300 "@Q6Qr2rVgyyB69r"
