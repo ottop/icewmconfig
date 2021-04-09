@@ -10,6 +10,9 @@ ShapesProtectClientWindow=1 # 0 / 1
 # Enable full-screen mode for windows
 AllowFullscreen=1 # 0 / 1
 
+#Size hint consideration disabled
+ConsiderSizeHintsMaximized = 1
+
 # Limit by dock layer
 LimitByDockLayer=0 # 0 / 1
 
