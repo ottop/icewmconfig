@@ -11,13 +11,22 @@ ShapesProtectClientWindow=1 # 0 / 1
 AllowFullscreen=1 # 0 / 1
 
 #Size hint consideration disabled
-ConsiderSizeHintsMaximized = 1
+ConsiderSizeHintsMaximized = 0
 
 # Limit by dock layer
 LimitByDockLayer=0 # 0 / 1
 
 # Center maximixed windows
-CenterMaximizedWindows=0 # 0 / 1
+CenterMaximizedWindows=0 # 1 / 1
+
+# Hide fullscreen borders
+HideBordersMaximized=1
+
+#Show CPU temp in status br
+CPUStatusShowAcpiTempInGraph=1
+
+#Color of the CPU temp
+ColorCPUStatusTemp = "rgb:C0/C0/C0"
 
 # Raise windows when focused
 RaiseOnFocus=1 # 0 / 1
@@ -72,8 +81,8 @@ LimitPosition=1 # 0 / 1
 ShowMoveSizeStatus=1 # 0 / 1
 
 # Font for the window's move/resize status
-moveSizeFontName="-adobe-helvetica-bold-r-*-*-*-100-*-*-*-*-*-*"
-moveSizeFontNameXft="helvetica:size=6:bold"
+moveSizeFontName="-liberation-mono-bold-r-*-*-*-100-*-*-*-*-*-*"
+moveSizeFontNameXft="liberation-mono:size=6:bold"
 
 # Opaque window move
 OpaqueMove=1 # 0 / 1
@@ -118,8 +127,8 @@ ColorActiveBorder="rgb:C0/C0/C0"
 ColorNormalBorder="rgb:C0/C0/C0"
 
 # Minimized window font
-MinimizedWindowFontName="-adobe-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*"
-MinimizedWindowFontNameXft="helvetica:size=10:medium"
+MinimizedWindowFontName="-liberation-mono-medium-r-*-*-*-120-*-*-*-*-*-*"
+MinimizedWindowFontNameXft="liberation-mono:size=10:medium"
 
 # Normal minimized window color
 ColorNormalMinimizedWindow="rgb:C0/C0/C0"
@@ -185,8 +194,8 @@ QuickSwitchVertMargin=3 # 0-30
 QuickSwitchSeparatorSize=6 # 0-30
 
 # Quick switch window font
-QuickSwitchFontName="-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*"
-QuickSwitchFontNameXft="helvetica:size=12:bold"
+QuickSwitchFontName="-liberation-mono-bold-r-*-*-*-120-*-*-*-*-*-*"
+QuickSwitchFontNameXft="liberation-mono:size=12:bold"
 
 # Quick switch window color
 ColorQuickSwitch="rgb:C0/C0/C0"
@@ -216,20 +225,20 @@ FocusOnMapTransient=1 # 0 / 1
 FocusOnMapTransientActive=1 # 0 / 1
 
 # Normal button font
-NormalButtonFontName="-adobe-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*"
-NormalButtonFontNameXft="helvetica:size=11:medium"
+NormalButtonFontName="-liberation-mono-medium-r-*-*-*-120-*-*-*-*-*-*"
+NormalButtonFontNameXft="liberation-mono:size=11:medium"
 
 # Active button font
-ActiveButtonFontName="-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*"
-ActiveButtonFontNameXft="helvetica:size=11:bold"
+ActiveButtonFontName="-liberation-mono-bold-r-*-*-*-120-*-*-*-*-*-*"
+ActiveButtonFontNameXft="liberation-mono:size=11:bold"
 
 # List box font (Window list box)
-ListBoxFontName="-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*"
-ListBoxFontNameXft="helvetica:size=11:medium"
+ListBoxFontName="-liberation-mono-medium-r-*-*-*-120-*-*-*-*-*-*"
+ListBoxFontNameXft="liberation-mono:size=11:medium"
 
 # Dialog Label font
-LabelFontName="-adobe-helvetica-medium-r-*-*-*-140-*-*-*-*-*-*"
-LabelFontNameXft="helvetica:size=11:medium"
+LabelFontName="-liberation-mono-medium-r-*-*-*-140-*-*-*-*-*-*"
+LabelFontNameXft="liberation-mono:size=11:medium"
 
 # Dialog box color
 ColorDialog="rgb:C0/C0/C0"
@@ -274,8 +283,8 @@ ShowMenuButtonIcon=0 # 0 / 1
 MenuIconSize=16 # 8-128
 
 # Menu font
-MenuFontName="-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*"
-MenuFontNameXft="helvetica:size=12:bold"
+MenuFontName="-liberation-mono-bold-r-*-*-*-120-*-*-*-*-*-*"
+MenuFontNameXft="liberation-mono:size=12:bold"
 
 # Normal menu color
 ColorNormalMenu="rgb:C0/C0/C0"
@@ -332,7 +341,7 @@ MenuMaximalWidth=0 # 0-20000
 MenuActivateDelay=40 # 0-5000
 
 # Delay before activating menu submenus
-SubmenuMenuActivateDelay=300 # 0-5000
+SubmenuMenuActivateDelay=40 # 0-5000
 
 # Send the clicks outside menus to target window
 ReplayMenuCancelClick=0 # 0 / 1
@@ -373,7 +382,7 @@ TaskBarShowWindowIcons=1 # 0 / 1
 # Show the 'Show Desktop' button on taskbar
 TaskBarShowShowDesktopButton=0 # 0 / 1
 
-# Keep tasbar below all other windows
+# Keep taskbar below all other windows
 TaskBarKeepBelow=1 # 0 / 1
 
 # Show all windows on the taskbar
@@ -404,12 +413,12 @@ TaskBarShowWindowListMenu=0 # 0 / 1
 TaskBarDoubleHeight=0 # 0 / 1
 
 # Normal taskbar font
-NormalTaskBarFontName="-adobe-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*"
-NormalTaskBarFontNameXft="helvetica:size=11:medium"
+NormalTaskBarFontName="-liberation-mono-medium-r-*-*-*-120-*-*-*-*-*-*"
+NormalTaskBarFontNameXft="liberation-mono:size=11:medium"
 
 # Active taskbar font
-ActiveTaskBarFontName="-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*"
-ActiveTaskBarFontNameXft="helvetica:size=11:bold"
+ActiveTaskBarFontName="-liberation-mono-bold-r-*-*-*-120-*-*-*-*-*-*"
+ActiveTaskBarFontNameXft="liberation-mono:size=11:bold"
 
 # Default taskbar color
 ColorDefaultTaskBar="rgb:C0/C0/C0"
@@ -467,8 +476,8 @@ ColorClockText="rgb:00/FF/00"
 ClockCommand="xclock -name icewm -title Clock"
 
 # Clock font
-ClockFontName="-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*"
-ClockFontNameXft="helvetica:size=11:medium"
+ClockFontName="-liberation-mono-medium-r-*-*-*-120-*-*-*-*-*-*"
+ClockFontNameXft="liberation-mono:size=11:medium"
 
 # Clock status WM_CLASS hint
 ClockClassHint="icewm.XClock"
@@ -525,10 +534,10 @@ ColorCPUStatusNice="rgb:00/00/FF"
 ColorCPUStatusIdle="rgb:255/255/00"
 
 # Command to run when CPU status monitor is clicked
-CPUStatusCommand="xterm htop"
+CPUStatusCommand="alacritty -e htop"
 
 # CPU status WM_CLASS hint
-CPUStatusClassHint="top.XTerm"
+CPUStatusClassHint=""
 
 # IO Wait on the CPU monitor
 ColorCPUStatusIoWait="rgb:60/00/60"
@@ -555,10 +564,10 @@ ColorNetReceive="rgb:FF/00/FF"
 ColorNetIdle="rgb:35/35/35"
 
 # Command to run when net status monitor is clicked
-NetStatusCommand="xterm -title Network\ Status -e netstat -c"
+NetStatusCommand="alacritty -e netstat -c"
 
 # Net status WM_CLASS hint
-NetStatusClassHint="netstat.XTerm"
+NetStatusClassHint=""
 
 # Width of Net Monitor
 TaskBarNetSamples=20 # 2-1000
@@ -567,7 +576,7 @@ TaskBarNetSamples=20 # 2-1000
 TaskBarNetDelay=500 # 10-3600000
 
 # Show Advanced Power Management time
-TaskBarShowAPMTime=1 # 0 / 1
+TaskBarShowAPMTime=0 # 0 / 1
 
 # Show Advanced Power Management (APM) status on task bar
 TaskBarShowAPMStatus=0 # 0 / 1
@@ -628,8 +637,8 @@ ToolTipDelay=1000 # 0-5000
 ToolTipTime=0 # 0-5000
 
 # Tooltip font
-ToolTipFontName="-adobe-helvetica-medium-r-*-*-*-120-*-*-*-*-*-*"
-ToolTipFontNameXft="helvetica:size=11:medium"
+ToolTipFontName="-liberation-mono-medium-r-*-*-*-120-*-*-*-*-*-*"
+ToolTipFontNameXft="liberation-mono:size=11:medium"
 
 # Tooltip color
 ColorToolTip="rgb:E0/E0/00"
@@ -701,8 +710,8 @@ TitleButtonsRight="xmir"
 TitleBarHeight=20 # 0-128
 
 # Title bar font
-TitleFontName="-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*"
-TitleFontNameXft="helvetica:size=11:bold"
+TitleFontName="-liberation-mono-bold-r-*-*-*-120-*-*-*-*-*-*"
+TitleFontNameXft="liberation-mono:size=11:bold"
 
 # Active title bar color
 ColorActiveTitleBar="rgb:00/00/A0"
@@ -786,7 +795,7 @@ ConfirmLogout=1 # 0 / 1
 LockCommand="xlock"
 
 # Terminal emulator (must accept -e option)
-TerminalCommand="xterm"
+TerminalCommand="alacritty"
 
 # Command to reboot the system
 RebootCommand="doas reboot"
@@ -953,7 +962,7 @@ KeySysWinMenu=""
 KeySysDialog="Super+Shift+Esc"
 
 # "Program menu" shortcut
-KeySysMenu="Super+Esc"
+KeySysMenu="Super+Escape"
 
 # "Window list" shortcut
 KeySysWindowList=""
@@ -1150,8 +1159,8 @@ ActiveWorkspaceFontNameXft="courier:size=11:bold"
 ShowWorkspaceStatus=1 # 0 / 1
 
 # Status font
-StatusFontName="-adobe-helvetica-bold-r-*-*-*-120-*-*-*-*-*-*"
-StatusFontNameXft="helvetica:size=12:bold"
+StatusFontName="-liberation-mono-bold-r-*-*-*-120-*-*-*-*-*-*"
+StatusFontNameXft="liberation-mono:size=12:bold"
 
 # Number of milliseconds to display the workspace tooltip when changing workspaces
 WorkspaceStatusTime=2500 # 0-6000
