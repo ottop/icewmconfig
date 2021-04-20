@@ -1,5 +1,5 @@
 # icewmconfig
-Configuration files for icewm.
+Configuration files for icewm. Place them inside ~/.icewm/
 
 With my theme, it looks like this:
 ![Screenshot from 2021-04-09 09-34-31](https://user-images.githubusercontent.com/60475104/115363504-3421de80-a1cb-11eb-84b0-832dce0130df.png)
