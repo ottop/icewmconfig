@@ -11,3 +11,5 @@ You can find my theme here: https://www.pling.com/p/1483501/
 Change the wallpaper location to wherever your wallpaper is within the configuration file. 
 
 Place the theme inside ~/.icewm/themes/
+
+Also change the keys file and whatnot to work with whatever software you use. and whatever keybindings you may want to add.
