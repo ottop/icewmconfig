@@ -388,6 +388,8 @@ TaskBarKeepBelow=1 # 0 / 1
 # Show all windows on the taskbar
 TrayShowAllWindows=0 # 0 / 1
 
+TaskBarShowCollapseButton=0
+
 # Show task tray on task bar
 TaskBarShowTray=0 # 0 / 1
 
