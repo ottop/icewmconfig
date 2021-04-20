@@ -6,6 +6,7 @@ With my theme, it looks like this:
 
 
 You can find the wallpapers here: https://www.pling.com/p/1483504/
+
 You can find my theme here: https://www.pling.com/p/1483501/
 
 Change the wallpaper location to wherever your wallpaper is within the configuration file. 
