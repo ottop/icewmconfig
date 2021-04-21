@@ -13,4 +13,4 @@ Change the wallpaper location to wherever your wallpaper is within the configura
 
 Place the theme inside ~/.icewm/themes/
 
-Also change the keys file and whatnot to work with whatever software you use. and whatever keybindings you may want to add.
+Also change the keys file and whatnot to work with whatever software you use and whatever keybindings you may want to add.
